@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TailWindBlog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <nav
+      class="h-14 bg-gradient-to-r from-cyan-500 to-blue-500 text-white py-4 text-center sm:text-left"
+    >
+      <div class="container mx-auto flex justify-between items-center px-4">
+        <div>
+          <a href="index.html" class="font-bold text-lg">JaeWon's Blog</a>
+        </div>
+        <blockquote
+          class="text-2xl font-semibold italic text-center text-slate-900"
+        >
+          <span
+            class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-yellow-500 relative inline-block"
+          >
+            <span class="relative text-white">메인 홈</span>
+          </span>
+        </blockquote>
+        <div class="hidden md:block">
+          <ul class="text-right">
+            <li class="inline-block">
+              <a href="learn.html" class="px-4 py-2 hover:text-gray-300"
+                >수강 목록</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="bg-gradient-to-r from-purple-500 to-pink-500 py-16">
+      <div class="container mx-auto px-4">
+        <h1 class="text-4xl font-bold text-stone-300 leading-tight mb-8">
+          나의 포트폴리오
+        </h1>
+        <p class="text-xl text-stone-300 leading-relaxed mb-8">
+          중부대학교 2학년 정보보호학전공 장재원
+        </p>
+        <p class="text-xl text-stone-300 leading-relaxed mb-8">
+          웹프로그래밍, 보안자료구조, 서버구축 및 운영실습, 객체지향프로그래밍
+          등
+        </p>
+        <button
+          class="bg-gray-900 text-white px-4 py-2 rounded hover:bg-gray-800 transition duration-300 ease-in-out"
+        >
+          <a href="learn.html">자세히 알아보기</a>
+        </button>
+      </div>
+    </div>
+
+    <div
+      class="border-2 border-gray-500 bg-gradient-to-r from-cyan-500 to-blue-500"
+    >
+      <div class="table w-full">
+        <div class="table-header-group">
+          <div class="table-row">
+            <div class="table-cell text-left">[웹프로그래밍]</div>
+            <div class="table-cell text-left">[보안자료구조]</div>
+            <div class="table-cell text-left">[객체지향프로그래밍]</div>
+            <div class="table-cell text-left">[서버구축 및 운영실습]</div>
+          </div>
+        </div>
+        <div class="table-row-group">
+          <div class="table-row">
+            <div class="table-cell">HTML,CSS,JavaScript</div>
+            <div class="table-cell">배열, 포인터, 구조체</div>
+            <div class="table-cell">Java</div>
+            <div class="table-cell ...">Linux</div>
+          </div>
+          <div class="table-row">
+            <div class="table-cell">BootsStrap</div>
+            <div class="table-cell">희소행렬, 순차구조</div>
+            <div class="table-cell">Eclipse</div>
+            <div class="table-cell ...">Unix</div>
+          </div>
+          <div class="table-row">
+            <div class="table-cell ...">TailWind</div>
+            <div class="table-cell ...">재귀호출</div>
+            <div class="table-cell ...">Python</div>
+            <div class="table-cell ...">원리와 실제</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <div class="container mx-auto px-16">
+      <div class="text-4xl font-bold text-gray-900 leading-tight mb-8"></div>
+    </div>
+
+    <footer class="flex">
+      <p>Copyright &copy; 2023, 중부대학교 정보보호학전공 20학번 장재원</p>
+    </footer>
+  </body>
+</html>
